@@ -11,10 +11,21 @@ const main = async () => {
     let waveCount;
     waveCount = await waveContract.getTotalWaves();
 
+    //invoke wave by creater address - 1st run
     let wave = await waveContract.wave();
     await wave.wait()
 
     waveCount =  await waveContract.getTotalWaves();
+
+     //invoke wave by creater address - 2nd run
+     wave = await waveContract.wave();
+     await wave.wait()
+
+    //invoke the contract by different address
+    wave = await waveContract.connect(randomPerson).wave();
+    await wave.wait();
+
+    waveCount = await waveContract.getTotalWaves();
     
 };
 
