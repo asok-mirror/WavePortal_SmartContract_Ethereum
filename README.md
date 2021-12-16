@@ -17,7 +17,7 @@ Smart Contract
 
 UI:
 
-![Alt text](artifacts\image\UI.PNG?raw=true "UI")
+![Alt text](assets/image/UI.PNG?raw=true "UI")
 
 Contract Address:
 
