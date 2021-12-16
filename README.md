@@ -22,5 +22,3 @@ UI:
 Contract Address:
 
 [Wave Contract](https://rinkeby.etherscan.io/address/0x057b88c534031b3698b507b4f5511eee46533081)
-
-
