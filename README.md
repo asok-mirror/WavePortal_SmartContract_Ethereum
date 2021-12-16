@@ -1,15 +1,18 @@
-# Basic Sample Hardhat Project
+# Wave Portal 👋 
+Developed Through following the tutorial on build space. 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+### **Welcome!**
+To get started with this course, clone this repo and follow these commands:
 
-Try running some of the following tasks:
+Front End ( root - front-end folder)
+1. Run `npm install` at the root of your directory
+2. Run `npm run start` to start the project
+3. Happy Grinding
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Smart Contract
+1.  npx hardhat compile - to compile the SC
+2.  npx hardhat run scripts/run.js - to run locally and test the contract
+3.  npx hardhat run scripts/deploy.js - to deploy to the Eth Testnet
+4.  Make sure you have an app created at Alchemy and use its key in the env file 
+
+
