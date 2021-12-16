@@ -15,4 +15,12 @@ Smart Contract
 3.  npx hardhat run scripts/deploy.js - to deploy to the Eth Testnet
 4.  Make sure you have an app created at Alchemy and use its key in the env file 
 
+UI:
+
+![Alt text](artifacts\image\UI.PNG?raw=true "UI")
+
+Contract Address:
+
+[Wave Contract](https://rinkeby.etherscan.io/address/0x057b88c534031b3698b507b4f5511eee46533081)
+
 
