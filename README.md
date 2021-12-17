@@ -1,8 +1,8 @@
 # Wave Portal 👋 
-Developed Through following the tutorial on build space. 
+Developed through following the tutorial on build space. 
 
 ### **Welcome!**
-To get started with this course, clone this repo and follow these commands:
+To get started with this, clone this repo and follow these commands:
 
 Front End ( root - front-end folder)
 1. Run `npm install` at the root of your directory
